@@ -1,0 +1,9 @@
+<div class="rating">
+    <div class="star-group">
+        <ng-container *ngFor="let i of starsCounter">
+            <img class="rating--icon" src="/assets/icon-star.svg" alt="Star icon">
+        </ng-container>
+    </div>
+
+    <span class="rating--reviewer">Rated 5 stars in {{ rating?.reviewer }}</span>
+</div>
